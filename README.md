@@ -16,7 +16,7 @@
 
 ### 使用预编译二进制文件
 
-从 [Releases](https://github.com/MamoCode/Antigravity/releases) 下载对应平台的二进制文件：
+从 [Releases](https://github.com/MamoWorks/Antigravity/releases) 下载对应平台的二进制文件：
 
 ### 使用 Docker
 
@@ -27,8 +27,8 @@ docker compose -f docker/docker-compose.yml up -d
 
 **使用 Docker CLI:**
 ```bash
-docker pull ghcr.io/mamocode/antigravity:latest
-docker run -d -p 8000:8000 --name antigravity ghcr.io/mamocode/antigravity:latest
+docker pull ghcr.io/mamoworks/antigravity:latest
+docker run -d -p 8000:8000 --name antigravity ghcr.io/mamoworks/antigravity:latest
 ```
 
 ### 从源码构建
@@ -39,7 +39,7 @@ docker run -d -p 8000:8000 --name antigravity ghcr.io/mamocode/antigravity:lates
 **构建步骤:**
 ```bash
 # 克隆仓库
-git clone https://github.com/MamoCode/Antigravity.git
+git clone https://github.com/MamoWorks/Antigravity.git
 cd antigravity
 
 # 安装依赖

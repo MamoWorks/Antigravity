@@ -1,6 +1,6 @@
 services:
   antigravity-proxy:
-    image: ghcr.io/mamocode/antigravity:latest
+    image: ghcr.io/mamoworks/antigravity:latest
     container_name: antigravity-proxy
     ports:
       - "8000:8000"
