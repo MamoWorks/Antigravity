@@ -1,0 +1,39 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Environment variables
+.env
+
+# Auth credentials and config
+auth/auth_config.txt
+auth/amazonq_credentials.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+auth/*.json
+
+# OS
+.DS_Store
+Thumbs.db

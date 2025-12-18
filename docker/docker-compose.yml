@@ -1,0 +1,9 @@
+services:
+  antigravity-proxy:
+    image: ghcr.io/mamocode/antigravity:latest
+    container_name: antigravity-proxy
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+    restart: always
